@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.niceinterface.fragment.BlankFragment1">
+
+    <Button
+        android:id="@+id/btn_fragment_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fragmentOnClick"
+        android:text="无参无返回" />
+
+    <Button
+        android:id="@+id/btn_fragment_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fragmentOnClick"
+        android:text="无参有返回" />
+
+    <Button
+        android:id="@+id/btn_fragment_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="有参数无返回" />
+
+    <Button
+        android:id="@+id/btn_fragment_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="有参数有返回" />
+
+    <Button
+        android:id="@+id/btn_fragment_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="调用多个参数且无返回" />
+
+    <Button
+        android:id="@+id/btn_fragment_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="调用多个参数无返回Bundle" />
+
+    <Button
+        android:id="@+id/btn_fragment_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="调用多个参数有返回Bundle" />
+</LinearLayout>
